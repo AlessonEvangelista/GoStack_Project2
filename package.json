@@ -1,11 +1,18 @@
 {
   "name": "goStack_Project2",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "src/server.js",
   "repository": "https://github.com/AlessonEvangelista/GoStack_Project2.git",
   "author": "AlessonEvangelista <alesson.evangelista@autoavaliar.com.br>",
   "license": "MIT",
+  "scripts": {
+    "dev": "nodemon"
+  },
   "dependencies": {
     "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.3",
+    "sucrase": "^3.13.0"
   }
 }
