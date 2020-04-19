@@ -1,0 +1,11 @@
+# Editor Config => extensão VSCode, Botão direito na raíz, generate Editor Config
+# Serve para garantir que todos desenvolvedores mantenham o mesmo padrão de edição
+# Independente, mantendo o mesmo padrão em todos os editores.
+root = true
+
+[*]
+indent_style = space
+indent_size = 2
+charset = utf-8
+trim_trailing_whitespace = true
+insert_final_newline = true
