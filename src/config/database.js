@@ -1,4 +1,4 @@
-import { postgres } from '../../environment';
+const { postgres } = require('../../environment');
 
 module.exports = {
   dialect: 'postgres',
